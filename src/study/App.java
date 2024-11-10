@@ -44,6 +44,7 @@ public class App {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		System.out.println("Hello");
 		frame = new JFrame();
 		frame.setBounds(100, 100, 768, 426);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
